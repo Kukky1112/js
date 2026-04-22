@@ -36,8 +36,19 @@ function sayHello(name) { // name = parametr
 
 sayHello("Alice");
 
-function addNumber(num1, nuum2) {
+function scitani(num1, nuum2) {
     console.log(num1 + nuum2);
+    console.log(num1 - nuum2);
+    console.log(num1 * nuum2);
+    console.log(num1 / nuum2);
 }
 
-addNumber(5,8);
+scitani(5,8);
+
+
+function poradnik(zacatek, konec) {
+    for (let i = zacatek; i <= konec; i++)
+        console.log(i);
+}
+
+poradnik(5,20);
